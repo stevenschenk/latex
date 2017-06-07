@@ -1,0 +1,42 @@
+\documentclass{article}
+
+\title{Title}
+\date{1-1-1111}
+\author{Schenk, Steven\\
+  \texttt{0894490}
+%   \and
+%   Other, Author\\
+%   \texttt{0894490}
+  }
+
+
+\usepackage{fancyhdr}
+\usepackage{parskip}
+\usepackage{cite}
+\RequirePackage{url}
+
+
+
+\pagestyle{fancy}
+\fancyhead[L]{Title}
+
+
+\begin{document}
+\pagenumbering{gobble}
+\maketitle
+\newpage
+\pagenumbering{arabic}
+\tableofcontents
+
+
+\newpage
+\section{First section goes here}
+Lorem ipsum....
+
+\newpage
+% bibliography goes here
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,bib}
+
+
+\end{document}
